@@ -20,6 +20,7 @@
       in {
         # For `nix build` & `nix run`:
         defaultPackage = naersk'.buildPackage {
+          pname = "irust";
           src = irust;
         };
 
